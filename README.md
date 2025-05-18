@@ -1,7 +1,7 @@
 Here's the updated GitHub description optimized for Bun runtime:
 
 
-# 🎂 Birthday Bash CLI (Bun Edition) 🎉
+# 🎂 Birthday Bash Whish CLI (Bun Edition) 🎉
 
 A lightning-fast birthday celebration tool built with Bun, featuring animated greetings and interactive fun!
 
@@ -24,13 +24,13 @@ A lightning-fast birthday celebration tool built with Bun, featuring animated gr
 
 ```bash
 # Install globally
-bun install -g birthday-cli
+bun install -g birthday-wish
 
 # Run with your name
-birthday-cli --name=YourName
+birthday-wish --name=YourName
 
 # Debug mode
-birthday-cli --name=YourName --debug
+birthday-wish --name=YourName --debug
 ```
 
 ## 🌟 Bun Advantages
@@ -51,10 +51,10 @@ birthday-cli --name=YourName --debug
 
 ```bash
 # Run directly (no install)
-bunx birthday-cli --name=You
+bunx birthday-wish --name=You
 
 # Install locally
-bun add birthday-cli
+bun add birthday-wish
 
 # Build from source
 bun install

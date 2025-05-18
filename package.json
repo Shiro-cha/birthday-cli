@@ -1,9 +1,9 @@
 {
-  "name": "birthday-cli",
+  "name": "birthday-wish",
   "version": "1.0.0",
   "main": "dist/index.js",
   "bin": {
-    "birthday-cli": "dist/index.js"
+    "birthday-wish": "dist/index.js"
   },
   "scripts": {
     "build": "bun build src/index.ts --outdir=dist --target node",
