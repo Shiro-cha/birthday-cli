@@ -6,9 +6,15 @@
     "birthday-cli": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "tsc -w"
+    "build": "bun build src/index.ts --outdir=dist --target node",
+    "start": "bun run dist/index.js",
+    "dev": "bun run --watch src/index.ts",
+    "test": "bun test",
+    "lint": "bunx eslint src/**/*.ts",
+    "format": "bunx prettier --write src/**/*.ts",
+    "prepublish": "bun run build",
+    "bun:install": "bun add axios chalk figlet gradient-string inquirer",
+    "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
     "axios": "^1.6.2",
@@ -21,6 +27,12 @@
     "@types/figlet": "^1.5.5",
     "@types/inquirer": "^9.0.4",
     "@types/node": "^20.11.7",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "copyfiles": "^2.4.1",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
   }
 }
