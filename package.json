@@ -16,6 +16,27 @@
     "bun:install": "bun add axios chalk figlet gradient-string inquirer",
     "clean": "rm -rf dist node_modules"
   },
+  "keywords": [
+    "birthday",
+    "cli",
+    "terminal",
+    "bun",
+    "typescript",
+    "animation",
+    "ascii-art",
+    "celebrate",
+    "interactive",
+    "gradient",
+    "chalk",
+    "inquirer",
+    "command-line",
+    "nodejs",
+    "fun",
+    "greeting",
+    "wish",
+    "confetti",
+    "quote-generator"
+  ],
   "dependencies": {
     "axios": "^1.6.2",
     "chalk": "^5.3.0",
